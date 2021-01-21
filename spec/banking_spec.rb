@@ -3,7 +3,7 @@ describe "BankAccount" do
 
   let(:avi) { BankAccount.new("Avi") }
 
-@@ -20,23 +20,23 @@
+
         expect(avi.status).to eq("open")
       end
 
